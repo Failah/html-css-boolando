@@ -29,6 +29,10 @@ img {
     margin: auto;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 /* content */
 
 header {
@@ -52,14 +56,16 @@ main {
 
 .gender-button h5 {
     padding-right: 8px;
+    font-size: 1rem;
 }
 
 #boolean-logo {
-    width: 8%;
+    width: 10%;
 }
 
 .cards-zone {
     row-gap: 20px;
+    padding-bottom: 40px;
 }
 
 .card {
@@ -78,7 +84,7 @@ main {
     text-align: center;
     padding-top: 5px;
     position: absolute;
-    bottom: 170px;
+    bottom: 110px;
 }
 
 .sustain {
@@ -89,8 +95,12 @@ main {
     text-align: center;
     padding-top: 5px;
     position: absolute;
-    bottom: 170px;
+    bottom: 110px;
     left: 75px;
+}
+
+#sustain-left {
+    left: 10px;
 }
 
 .heart {
@@ -106,6 +116,15 @@ main {
     font-size: 3rem;
 }
 
+.new-price {
+    color: red;
+    font-weight: bold;
+}
+
+.old-price {
+    text-decoration: line-through;
+}
+
 footer {
     width: 100%;
     background-color: #1a1a1a;
@@ -115,4 +134,12 @@ footer {
     color: #fff;
     padding: 20px 10px;
     justify-content: space-between;
+}
+
+.footer-section div>* {
+    padding: 5px 0px;
+}
+
+.infos {
+    font-size: 0.8rem;
 }

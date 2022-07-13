@@ -95,6 +95,21 @@ main {
     background-size: 100%;
 }
 
+.teeunisex-image:hover {
+    background: url('../img/4b.webp');
+    background-size: 100%;
+}
+
+.stripebodice-image:hover {
+    background: url('../img/5b.webp');
+    background-size: 100%;
+}
+
+.maglione-image:hover {
+    background: url('../img/6b.webp');
+    background-size: 100%;
+}
+
 .sale {
     background-color: red;
     width: 60px;

@@ -14,7 +14,105 @@ img {
     width: 100%;
 }
 
-
 /* utilities */
 
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.centered {
+    max-width: 1200px;
+    margin: auto;
+}
+
 /* content */
+
+header {
+    position: fixed;
+    background-color: #ff6900;
+    color: #fff;
+    width: 100%;
+    padding: 20px 10px;
+    z-index: 1;
+}
+
+main {
+    padding-top: 100px;
+}
+
+.gender-links {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.gender-button h5 {
+    padding-right: 8px;
+}
+
+#boolean-logo {
+    width: 8%;
+}
+
+.cards-zone {
+    row-gap: 20px;
+}
+
+.card {
+    padding: 10px;
+    width: calc(100% / 3);
+    flex-shrink: 0;
+    border-radius: 10px;
+    position: relative;
+}
+
+.sale {
+    background-color: red;
+    width: 60px;
+    height: 25px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    position: absolute;
+    bottom: 170px;
+}
+
+.sustain {
+    background-color: green;
+    width: 95px;
+    height: 25px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    position: absolute;
+    bottom: 170px;
+    left: 75px;
+}
+
+.heart {
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    color: black;
+    text-align: center;
+    padding-top: 3px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    font-size: 3rem;
+}
+
+footer {
+    width: 100%;
+    background-color: #1a1a1a;
+}
+
+.footer-section {
+    color: #fff;
+    padding: 20px 10px;
+    justify-content: space-between;
+}

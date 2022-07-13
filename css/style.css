@@ -33,6 +33,10 @@ img {
     font-weight: bold;
 }
 
+.hidden-hover:hover {
+    visibility: hidden;
+}
+
 /* content */
 
 header {
@@ -74,6 +78,21 @@ main {
     flex-shrink: 0;
     border-radius: 10px;
     position: relative;
+}
+
+.unisextee-image:hover {
+    background: url('../img/1b.webp');
+    background-size: 100%;
+}
+
+.rosestee-image:hover {
+    background: url('../img/2b.webp');
+    background-size: 100%;
+}
+
+.pastello-image:hover {
+    background: url('../img/3b.webp');
+    background-size: 100%;
 }
 
 .sale {
